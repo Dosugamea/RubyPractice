@@ -18,6 +18,10 @@ MariaDB-0 10.1.44+deb9u1 - Raspbian 9.11
  - rails
  - dotenv-rails
 
+ ### Production
+  - Heroku(Git releaseブランチ)
+    - ClearDB　(MySQL)
+
 ## Note
 終了が早すぎるとDebugger error: Client: Error: read ECONNRESETと言われるが仕様
 
@@ -28,4 +32,6 @@ MariaDB-0 10.1.44+deb9u1 - Raspbian 9.11
 [20分ではじめるRuby](https://www.ruby-lang.org/ja/documentation/quickstart/)  
 [VSCode Ruby cannot load such file](https://stackoverflow.com/questions/50659574/visual-studio-code-ruby-uncaught-exception-cannot-load-such-file)  
 [Debugger error: Client: Error: read ECONNRESET](https://github.com/rubyide/vscode-ruby/issues/117)  
-[Railsで使える環境変数を管理できるgem(dotenv-rails)や.envの導入方法](https://qiita.com/ryosuketter/items/ceb592dc6b23a20e51b5)
+[Railsで使える環境変数を管理できるgem(dotenv-rails)や.envの導入方法](https://qiita.com/ryosuketter/items/ceb592dc6b23a20e51b5)  
+[HerokuでMySQLを使おうとして詰まったところ](https://qiita.com/senou/items/108ef1d94dcb5b227b4f)  
+[えっ…HerokuでMySQL使えるの…？](https://qiita.com/koukidesu/items/2115a50569e6519832da)
